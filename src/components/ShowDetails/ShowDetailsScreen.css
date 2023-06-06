@@ -1,0 +1,78 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.show-summary {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.ticket-form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.ticket-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ticket-form label {
+  font-weight: bold;
+}
+
+.ticket-form input[type="text"],
+.ticket-form input[type="email"],
+.ticket-form input[type="date"],
+.ticket-form input[type="number"] {
+  padding: 5px;
+  width: 100%;
+}
+
+.ticket-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+.ticket-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.book-ticket-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.book-ticket-button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
